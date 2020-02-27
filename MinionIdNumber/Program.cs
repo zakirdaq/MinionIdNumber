@@ -1,10 +1,10 @@
-I love to solve programming problem and this one is my top skill. Working with prime number is always fun. This problem is a combination of prime number generation and extracting digit from a number.
+﻿using System;
 
-This is a c# implementation to solve the problem Minion Id Number (See problem details from the file inside). I have choosed very basic way to generate prime here. For higher number n > 100000 you can choose sieve algorithm for prime number generation to increase performance though.
-
-Here is my code:
-
-        string GetMinionIdNumber(int n)
+namespace MinionIdNumber
+{
+    class Program
+    {
+        static string GetMinionIdNumber(int n)
         {
             string o = "";
             int r = 0, d = 1, ten = 1;
@@ -61,3 +61,18 @@ Here is my code:
             }
             return true;
         }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Input: (int) n = 0 Output: (string) " + GetMinionIdNumber(0));
+            Console.WriteLine("Input: (int) n = 1 Output: (string) " + GetMinionIdNumber(1));
+            Console.WriteLine("Input: (int) n = 2 Output: (string) " + GetMinionIdNumber(2));
+            Console.WriteLine("Input: (int) n = 3 Output: (string) " + GetMinionIdNumber(3));
+            Console.WriteLine("Input: (int) n = 100 Output: (string) " + GetMinionIdNumber(100));
+            Console.WriteLine("Input: (int) n = 139 Output: (string) " + GetMinionIdNumber(139));
+            Console.WriteLine("Input: (int) n = 1000 Output: (string) " + GetMinionIdNumber(1000));
+            Console.WriteLine("Input: (int) n = 10000 Output: (string) " + GetMinionIdNumber(10000));
+            Console.ReadLine();
+        }
+    }
+}
