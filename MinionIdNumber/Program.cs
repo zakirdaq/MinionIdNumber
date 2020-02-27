@@ -72,6 +72,7 @@ namespace MinionIdNumber
             Console.WriteLine("Input: (int) n = 139 Output: (string) " + GetMinionIdNumber(139));
             Console.WriteLine("Input: (int) n = 1000 Output: (string) " + GetMinionIdNumber(1000));
             Console.WriteLine("Input: (int) n = 10000 Output: (string) " + GetMinionIdNumber(10000));
+            Console.WriteLine("Input: (int) n = 100000 Output: (string) " + GetMinionIdNumber(100000));
             Console.ReadLine();
         }
     }

@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ATL05\\Downloads\\MinionIdNumber-master\\MinionIdNumber-master\\MinionIdNumber\\MinionIdNumber.csproj",
+      "projectUniqueName": "E:\\Projects\\MinionIdNumber\\MinionIdNumber\\MinionIdNumber.csproj",
       "projectName": "MinionIdNumber",
-      "projectPath": "C:\\Users\\ATL05\\Downloads\\MinionIdNumber-master\\MinionIdNumber-master\\MinionIdNumber\\MinionIdNumber.csproj",
+      "projectPath": "E:\\Projects\\MinionIdNumber\\MinionIdNumber\\MinionIdNumber.csproj",
       "packagesPath": "C:\\Users\\ATL05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ATL05\\Downloads\\MinionIdNumber-master\\MinionIdNumber-master\\MinionIdNumber\\obj\\",
+      "outputPath": "E:\\Projects\\MinionIdNumber\\MinionIdNumber\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
