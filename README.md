@@ -1,6 +1,6 @@
 I love to solve programming problem and this one is my top skill. Working with prime number is always fun. This problem is a combination of prime number generation and extracting digit from a number.
 
-This is a c# implementation to solve the problem Minion Id Number (See problem details from the file inside). I have choosed very basic way to generate prime here. For higher number n > 100000 you can choose sieve algorithm for prime number generation to increase performance though.
+This is a c# implementation to solve the problem Minion Id Number (See problem details from the file Problem Details.pdf). I have choosed very basic way to generate prime here. For higher number n > 100000 you can choose sieve algorithm for prime number generation to increase performance though.
 
 Here is my code:
 
